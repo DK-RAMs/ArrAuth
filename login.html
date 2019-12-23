@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>This is Matimba's</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    </head>
+    
+    <body id="page-contents">
+        <div class="container-fluid d-flex justify-content-center" id="page-heading-items">
+            <h1>This is Matimba's</h1>
+        </div>
+        <div class="row align-items-center h-100" id="form-holder">
+            <div class="container-fluid d-flex justify-content-center" id="formHeading">
+                <h3>Fill in the form below to get started</h3>
+            </div>
+            <div id="form-container" class="container-fluid d-flex justify-content-center">
+                <form id="MatimbaForm" onsubmit="alert(yes)">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="FirstName">First Name:<sub id="warningMessage0">Enter a first name</sub></label><input type="text" name="FirstName" class="form-control" id="fnFormEntry"> 
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="LastName">Last Name:<sub id="warningMessage1">Enter a last name</sub></label><input type="text" name="LastName" class="form-control" id="lnFormEntry">
+                        </div>
+
+                        <div class="form-group col-md-10">
+                            <label for="Email">Email:<sub id="warningMessage2">Enter a valid email address</sub></label> <input type="email" name="Email" class="form-control" id="EmailFormEntry" placeholder="example@mail.com" id="emailFormEntry">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="Age">Age: <sub id="warningMessage3">Enter a valid age</sub></label><input type="number" name="Age" class="form-control" id="ageFormEntry">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="firstPassword">Password:<sub id="warningMessage4">Enter a password</sub></label><input type="password" name="firstPassword" class="form-control" id="firstPasswordFormEntry">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="confirmPassword">Confirm Password:<sub id="warningMessage5">Ensure passwords match</sub></label><input type="password" name="confirmPassword" class="form-control" id="lastPasswordFormEntry">
+                        </div>
+                        <input type="submit" value="Sign Up" id="submitButton" class="btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Bootstrap CDN links -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- Personal scripts -->
+        
+        <script type="application/ecmascript" src="scripts/main.js"></script>
+    </body>
+    
+</html>
